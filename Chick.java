@@ -5,10 +5,11 @@ class Chick implements Animal {
          myType = type;         
          mySound = sound;     
      }     
-     public Chick()     {         
-         myType = "chick";         
-         mySound = "cluck";     
-     }      
+     public Chick()
+     {
+     	myType = "chick";
+     	mySound = "cluck";
+     }
      public String getSound(){return mySound;}     
      public String getType(){return myType;} 
 }
